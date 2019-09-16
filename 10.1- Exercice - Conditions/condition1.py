@@ -4,3 +4,11 @@
 # Indications :  Vous pouvez changer les valeurs des variables pour vos tests.
 c = 42
 d = 31
+
+if c * d > 0:
+    print("Produit positif")
+elif c * d < 0:
+    print("Produit négatif")
+else:
+    print("Produit nul")
+
